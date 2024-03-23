@@ -1,5 +1,5 @@
 body{
-    font-family: "Roboto", "Raleway", "Verdana", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
 }
@@ -36,10 +36,6 @@ color: #2e2f42;
 
 .menu-nav-item:hover
 .menu-nav-item:focus{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
 color: #404bbf;
 }
 .menu-nav-item:active{
@@ -47,20 +43,20 @@ color: #404bbf;
 text-decoration: underline;
 }
 
+address{
+font-style: normal
+}
+
 .header-address-item{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #434455;
 }
 
 .header-address-item:hover
 .header-address-item:focus{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
 color: #404bbf;
 }
 
@@ -76,13 +72,14 @@ background-color: #2e2f42;
 .solution-header {
 font-weight: 700;
 font-size: 56px;
-line-height: 1.07143;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
 }
 
 .solution-button {
+font-family: "Roboto", sens-serif;
 background-color: #4d5ae5;
 font-weight: 500;
 font-size: 16px;
@@ -92,7 +89,8 @@ color: #fff;
 cursor: pointer;
 }
 
-.solution-button:hover{
+.solution-button:hover
+.solution-button:focus{
 background-color: #404bbf;
 }
 /* /Section1 */
@@ -122,10 +120,11 @@ letter-spacing: 0.02em;
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .team-list-inform{
@@ -154,10 +153,11 @@ text-align: center;
 .portfolio-title {
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
 
 .portfolio-list-item {
