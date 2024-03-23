@@ -34,13 +34,9 @@ color: #2e2f42;
     color: #2e2f42;
 }
 
-.menu-nav-item:hover
+.menu-nav-item:hover,
 .menu-nav-item:focus{
 color: #404bbf;
-}
-.menu-nav-item:active{
-color: #404bbf;
-text-decoration: underline;
 }
 
 address{
@@ -55,7 +51,7 @@ font-style: normal
     color: #434455;
 }
 
-.header-address-item:hover
+.header-address-item:hover,
 .header-address-item:focus{
 color: #404bbf;
 }
@@ -79,7 +75,7 @@ color: #fff;
 }
 
 .solution-button {
-font-family: "Roboto", sens-serif;
+font-family: "Roboto", sans-serif;
 background-color: #4d5ae5;
 font-weight: 500;
 font-size: 16px;
@@ -89,7 +85,7 @@ color: #fff;
 cursor: pointer;
 }
 
-.solution-button:hover
+.solution-button:hover,
 .solution-button:focus{
 background-color: #404bbf;
 }
